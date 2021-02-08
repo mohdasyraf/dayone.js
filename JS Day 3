@@ -1,0 +1,51 @@
+// String operation - Name
+var mystring = "Asia Developer Academy";
+
+console.log(mystring.length); //panjang perkataan
+console.log(mystring.toUpperCase()); //tukar capital letter
+console.log(mystring.toLowerCase()); //tukar lower letter
+console.log(mystring.charAt(6)); // amik huruf pada kedudukan yang disertakan
+console.log(mystring.indexOf('ev')); //pamer kedudukan huruf yang dikehendaki
+console.log(mystring.lastIndexOf('e')); // dia akan nyatakan keduduakn terakhir pada lenght
+console.log(mystring.substring(5,14)); // senaraikan ayat dalam kedudukan yang dinyatakan
+console.log(mystring.split(" ")); // dia akan pisahkan pada perkataan
+
+
+// String operation - number
+
+var newNum = 10.23456789
+
+console.log(newNum.toFixed (3)); // extactly 3 titik perpuluhan
+console.log(newNum.toPrecision(3)); // bundarkan pada keududkan nombor yang kita pilih
+
+// Math Method
+
+console.log(Math,)
+console.log(Math.cos(30));
+
+var number = 12.3
+console.log(Math.floor(number));//round down number to .(floor)
+console.log(Math.ceil(number)); //round up number from (ceiling)
+console.log(Math.round(number)); // bawah 5 round down. atas round up
+
+console.log(Math.random());
+
+
+//create a random integer form 1 - 100
+
+console.log(Math.ceil(Math.random() * 100));
+
+// Dadu
+
+console.log(Math.ceil(Math.random() * 6)); // darab 6 untuk nombor dadu 
+
+
+
+var student = ["Syed","Rahimi", "Ashraf", "Asyraf"]
+var randomNo = Math.floor(Math.random() * student.lenght)
+console.log("Student who will share screen is "+ student [randomNo]);
+
+
+
+
+
